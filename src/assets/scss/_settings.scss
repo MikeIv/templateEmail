@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #6d6a77;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -32,7 +32,7 @@ $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
+$global-padding: 4px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
@@ -133,7 +133,7 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 
 $menu-item-padding: 10px;
 $menu-item-gutter: 10px;
-$menu-item-color: $primary-color;
+//$menu-item-color: $primary-color;
 
 // 8. Thumbnail
 // ------------

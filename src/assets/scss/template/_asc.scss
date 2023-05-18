@@ -1,0 +1,27 @@
+.asc {
+  &__header {
+    background: #ffffff;
+    a {
+      color: #6D6A77;
+      &:visited {
+        color: #6D6A77;
+      }
+    }
+
+    &-icon {
+      width: 30px !important;
+    }
+
+    &-text {
+      text-align: right;
+      font-size: 14px;
+      color: #6D6A77;
+    }
+    &-link {
+      text-align: right;
+      font-size: 14px;
+      color: #6D6A77;
+    }
+  }
+
+}
