@@ -2,9 +2,9 @@
   &__header {
     background: #ffffff;
     a {
-      color: #6D6A77;
+      color: #6d6a77;
       &:visited {
-        color: #6D6A77;
+        color: #6d6a77;
       }
     }
 
@@ -15,13 +15,27 @@
     &-text {
       text-align: right;
       font-size: 14px;
-      color: #6D6A77;
+      color: #6d6a77;
     }
     &-link {
       text-align: right;
       font-size: 14px;
-      color: #6D6A77;
+      color: #6d6a77;
     }
   }
 
+  &__title {
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 16px;
+
+    &-link {
+      color: #3abdd5;
+    }
+  }
+  &__copyright {
+    font-size: 14px;
+    color: #9a9ea7;
+  }
 }
