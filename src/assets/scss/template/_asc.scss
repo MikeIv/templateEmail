@@ -38,4 +38,16 @@
     font-size: 14px;
     color: #9a9ea7;
   }
+
+  &__button {
+    background: #3abdd5;
+    & table td {
+      background: #3abdd5 !important;
+    }
+    & a {
+      font-size: 14px;
+      line-height: 30px;
+      background: #3abdd5;
+    }
+  }
 }
