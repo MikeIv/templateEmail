@@ -12,31 +12,36 @@
 //   7. Menu
 //   8. Thumbnail
 
-
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+
+// Colors
+
+$primary-color: #6d6a77;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
-$light-gray: #f3f3f3;
+$light-gray: #e4e6e8;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #474450;
 $black: #0a0a0a;
 $white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 600px;
 $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
+$global-padding: 4px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
+
+// ASC
+$asc-primary: #3abdd5;
 
 // 2. Grid
 // -------
@@ -54,7 +59,7 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
+$global-font-color: $dark-gray;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
@@ -70,7 +75,7 @@ $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$paragraph-margin-bottom: 4px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -82,7 +87,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
+$hr-border: 1px solid $dark-gray;
 $hr-margin: 20px;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
@@ -103,16 +108,16 @@ $button-padding: (
 $button-font-size: (
   tiny: 10px,
   small: 12px,
-  default: 16px,
-  large: 20px,
+  default: 14px,
+  large: 18px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
-$button-border: 2px solid $button-background;
-$button-radius: $global-radius;
+$button-border: none;
+$button-radius: 4px;
 $button-rounded: $global-rounded;
 
 // 6. Callout
@@ -133,7 +138,7 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 
 $menu-item-padding: 10px;
 $menu-item-gutter: 10px;
-$menu-item-color: $primary-color;
+//$menu-item-color: $primary-color;
 
 // 8. Thumbnail
 // ------------
