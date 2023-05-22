@@ -1,0 +1,54 @@
+.avd {
+  &__header {
+    background: #ffffff;
+    a {
+      color: #6d6a77;
+      &:visited {
+        color: #6d6a77;
+      }
+    }
+
+    &-icon {
+      width: 30px !important;
+    }
+
+    &-text {
+      text-align: right;
+      font-size: 14px;
+      color: #6d6a77;
+    }
+    &-link {
+      text-align: right;
+      font-size: 14px;
+      color: #6d6a77;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 16px;
+
+    &-link {
+      color: #2554FF;
+    }
+  }
+
+  &__button {
+    background: #2554FF;
+    & table td {
+      background: #2554FF !important;
+    }
+    & a {
+      font-size: 14px;
+      line-height: 30px;
+      background: #2554FF;
+    }
+  }
+
+  &__copyright {
+    font-size: 14px;
+    color: #9a9ea7;
+  }
+}
